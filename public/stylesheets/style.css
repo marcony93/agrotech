@@ -1,8 +1,40 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.banner{
+  color: #fff;
+  background: url("../images/pexels-photo-89267.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40em;
+}
+.logoPequenio{
+  width: 10em;
 }
 
-a {
-  color: #00B7FF;
+a{
+  color: white !important;
+}
+a:hover{
+  background-color: rgba(255, 255, 255, 0.238);
+}
+.espacioArriba{
+  padding-top: 2em;
+}
+.espacioAbajo{
+  padding-bottom: 2em;
+}
+/* CARACTERISTICAS */
+#caracteristicas{
+  background: rgb(231, 231, 231);
+}
+.iconoPequenio{
+  width: 5em;
+}
+.cuadroCaracteristica{
+  background-color: rgba(255, 255, 255, 0.238);
+  border-radius: 0.9;
+  color: gray;
+  padding: 2em;
+  margin: 1em;
+
 }

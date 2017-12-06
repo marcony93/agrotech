@@ -1,18 +1,42 @@
 {
-  "name": "agrtotech",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
-  "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "goblindb": "0.0.8",
-    "hbs": "~4.0.1",
-    "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
-  }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#9d0d31",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#2ce0d2",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.2578125,
+              61.60639637138628
+            ],
+            [
+              -25.3125,
+              -13.2399454992863
+            ],
+            [
+              64.6875,
+              46.07323062540835
+            ],
+            [
+              8.0859375,
+              63.704722429433225
+            ],
+            [
+              -69.2578125,
+              61.60639637138628
+            ]
+          ]
+        ]
+      }
+    }
+  ]
 }
